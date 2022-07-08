@@ -82,6 +82,7 @@ h4 {
 .about-title .full-name {
   color: var(--color-light);
   font-family: var(--font-family-secondary);
+  
 }
 
 .about-title .full-name {
@@ -111,6 +112,42 @@ h4 {
 .about-title .contact-link a:hover {
   background-color: var(--color-dark);
   color: white;
+}
+
+.contact-page h1{
+  font-size: 55px;
+  display: block;
+  margin: 0px auto;
+  padding-bottom: 10px;
+ text-align: center;
+ color: var(--color-dark);
+}
+
+
+.contact-page .contact-image {
+  display:block;
+  max-width:400px;
+  margin: 1px auto;
+}
+
+.contact-page .social-links {
+  text-align: center;
+}
+
+.contact-page .social-links a{
+  font-size: 30px;
+  color: white;
+  margin: 20px;
+  padding: 10px 17px;
+  border-radius: 50%;
+  background-color: var(--color-dark);
+transition: all 100ms ease-in-out;
+}
+
+.contact-page .social-links a:hover{
+  background-color: var(--color-light);
+  color: var(--color-dark);
+
 }
 
 nav {
@@ -187,7 +224,7 @@ footer .credits a:hover {
     font-size: 30px;
     line-height: 1;
     margin-bottom: 5px;
-    text-align: left;
+    text-align: center;
   }
 
   .about-title p {
@@ -198,6 +235,10 @@ footer .credits a:hover {
   .marquee {
     padding: 5px;
     width: 290px;
+  }
+
+  .contact-page h1{
+  font-size: 35px;
   }
 
   .home-links {

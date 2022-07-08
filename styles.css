@@ -30,6 +30,10 @@ h4 {
   text-align: center;
 }
 
+.name-title .logo {
+  width: 200px;
+}
+
 .name-title h1 {
   color: white;
 }
@@ -82,7 +86,6 @@ h4 {
 .about-title .full-name {
   color: var(--color-light);
   font-family: var(--font-family-secondary);
-  
 }
 
 .about-title .full-name {
@@ -114,19 +117,59 @@ h4 {
   color: white;
 }
 
-.contact-page h1{
+.project-page h1 {
   font-size: 55px;
-  display: block;
-  margin: 0px auto;
   padding-bottom: 10px;
- text-align: center;
- color: var(--color-dark);
+  text-align: center;
+  color: var(--color-dark);
+}
+
+.project-page h2 {
+  font-size: 35px;
+  font-family: var(--font-family-secondary);
+  color: var(--color-dark);
+}
+
+.project-page p {
+  color: var(--color-bg);
+  font-family: var(--font-family-accent);
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.project-page .description {
+  padding: 50px 50px;
+  background-color: var(--color-light);
+}
+.btn-project{
+  font-size: 18px;
+  padding: 10px 12px;
+  border: 1px solid var(--color-dark);
+  color: var(--color-dark);
+  font-family: var(--font-family-accent);
+  transition: all 100ms ease-in-out;
 }
 
 
-.contact-page .contact-image {
-  display:block;
-  max-width:400px;
+.btn-project:hover{
+background-color: white;
+  color: var(--color-dark);
+}
+
+.contact-page img{
+  max-width: 500px;
+}
+
+.contact-page h1 {
+  font-size: 55px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: var(--color-dark);
+}
+
+.contact-page img{
+  display: block;
+  max-width: 400px;
   margin: 1px auto;
 }
 
@@ -134,20 +177,19 @@ h4 {
   text-align: center;
 }
 
-.contact-page .social-links a{
+.contact-page .social-links a {
   font-size: 30px;
-  color: white;
+  color: var(--color-dark);
   margin: 20px;
   padding: 10px 17px;
   border-radius: 50%;
-  background-color: var(--color-dark);
-transition: all 100ms ease-in-out;
+  background-color: var(--color-light);
+  transition: all 100ms ease-in-out;
 }
 
-.contact-page .social-links a:hover{
-  background-color: var(--color-light);
-  color: var(--color-dark);
-
+.contact-page .social-links a:hover {
+  background-color: var(--color-dark);
+  color: white;
 }
 
 nav {
@@ -179,6 +221,24 @@ li.active a {
   text-decoration: none;
 }
 
+footer .social-links {
+  text-align: center;
+}
+
+footer .social-links a {
+  font-size: 18px;
+  color: var(--color-dark);
+  margin: 20px;
+  padding: 10px 13px;
+  border-radius: 50%;
+  background-color: var(--color-light);
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  background-color: var(--color-dark);
+  color: white;
+}
 footer .credits {
   color: var(--color-bg);
   font-family: var(--font-family-accent);
@@ -237,8 +297,45 @@ footer .credits a:hover {
     width: 290px;
   }
 
-  .contact-page h1{
-  font-size: 35px;
+ 
+
+  .project-page h1 {
+    font-size: 35px;
+  }
+
+  
+
+  .project-page .description{
+    text-align: center;
+    padding: 20px 15px;
+  }
+
+  .project-page h2 {
+    font-size: 20px;
+  }
+
+  .project-page p{
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .project-page .btn{
+    font-size: 12px;
+  }
+
+  .project-page img{
+   display:none
+  }
+   .contact-page h1 {
+    font-size: 35px;
+  }
+
+  .contact-page img{
+    max-width:300px;
+  }
+  .contact-page .btn{
+    font-size: 18px;
+    padding: 20px 18px;
   }
 
   .home-links {
@@ -250,6 +347,6 @@ footer .credits a:hover {
     font-size: 13px;
   }
   nav {
-    font-size: 13px;
+    font-size: 12px;
   }
 }

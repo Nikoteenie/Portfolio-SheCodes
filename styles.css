@@ -12,88 +12,39 @@ body {
 }
 
 h1 {
-  font-size: 96px;
   font-family: var(--font-family-primary);
 }
 
 h2,
 h3,
 h4 {
-  font-size: 25px;
   font-family: var(--font-family-secondary);
+  font-size: 25px;
 }
-
-.name-title {
-  padding: 80px 20px;
-  margin: 0px;
-  background-color: var(--color-bg);
-  text-align: center;
-}
-
-.name-title .logo {
-  width: 200px;
-}
-
 .name-title h1 {
+  font-size: 96px;
   color: white;
 }
 
-.name-title h2 {
+.name-title,
+.about-title,
+h2 {
   color: var(--color-light);
 }
-.marquee {
-  font-size: 25px;
-  padding: 10px;
-  font-family: var(--font-family-accent);
-  color: var(--color-bg);
-  background-color: var(--color-light);
-  width: 550px;
-}
 
-.home-links {
-  font-size: 25px;
-  text-align: center;
-}
-
-.home-links a {
-  padding: 20px 70px;
+.name-title .btn-branding {
   margin: 0px 90px;
-  background-color: var(--color-light);
-  color: var(--color-dark);
-  font-family: var(--font-family-accent);
-  transition: all 100ms ease-in-out;
-}
-
-.home-links a:hover {
-  background-color: var(--color-bg);
-  color: white;
-}
-
-.about-title {
-  padding: 80px 20px;
-  margin: 0px;
-  background-color: var(--color-bg);
-  text-align: left;
-}
-.about-title h1 {
-  color: white;
-}
-
-.about-title h2 {
-  color: var(--color-light);
 }
 
 .about-title .full-name {
   color: var(--color-light);
   font-family: var(--font-family-secondary);
-}
-
-.about-title .full-name {
   font-size: 60px;
 }
 
-.about-title marquee {
-  font-size: 18px;
+.about-title h1 {
+  color: white;
+  font-size: 96px;
 }
 
 .about-title p {
@@ -103,115 +54,113 @@ h4 {
   line-height: 45px;
 }
 
-.about-title .contact-link a {
-  font-size: 18px;
-  padding: 20px 30px;
-  background-color: var(--color-light);
-  color: var(--color-dark);
-  font-family: var(--font-family-accent);
-  transition: all 100ms ease-in-out;
-}
-
-.about-title .contact-link a:hover {
-  background-color: var(--color-dark);
-  color: white;
-}
-
-.project-page h1 {
-  font-size: 55px;
-  padding-bottom: 10px;
+.name-title {
+  background-color: var(--color-bg);
+  padding: 80px 20px;
   text-align: center;
+}
+
+.about-title {
+  background-color: var(--color-bg);
+  margin: 0px;
+  padding: 80px 20px;
+  text-align: left;
+}
+
+.contact-page,
+.project-page,
+h1 {
   color: var(--color-dark);
+  font-size: 65px;
+  text-align: center;
 }
 
 .project-page h2 {
-  font-size: 35px;
-  font-family: var(--font-family-secondary);
   color: var(--color-dark);
+  font-size: 35px;
 }
 
 .project-page p {
   color: var(--color-bg);
   font-family: var(--font-family-accent);
-  font-size: 20px;
-  line-height: 45px;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
 }
 
 .project-page .description {
-  padding: 50px 50px;
   background-color: var(--color-light);
+  padding: 40px 40px;
+  text-align: left;
 }
-.btn-project{
-  font-size: 18px;
-  padding: 10px 12px;
+
+.project-page .btn-project {
   border: 1px solid var(--color-dark);
   color: var(--color-dark);
   font-family: var(--font-family-accent);
+  font-size: 18px;
+  padding: 10px 12px;
   transition: all 100ms ease-in-out;
 }
 
-
-.btn-project:hover{
-background-color: white;
-  color: var(--color-dark);
+.project-page .btn-project:hover {
+  background-color: var(--color-dark);
+  border: 1px solid white;
+  color: white;
 }
 
-.contact-page img{
-  max-width: 500px;
-}
-
-.contact-page h1 {
-  font-size: 55px;
-  padding-bottom: 10px;
-  text-align: center;
-  color: var(--color-dark);
-}
-
-.contact-page img{
+.contact-page img {
   display: block;
-  max-width: 400px;
   margin: 1px auto;
+  max-width: 400px;
 }
 
-.contact-page .social-links {
-  text-align: center;
-}
-
-.contact-page .social-links a {
-  font-size: 30px;
+.marquee {
   color: var(--color-dark);
-  margin: 20px;
-  padding: 10px 17px;
-  border-radius: 50%;
   background-color: var(--color-light);
+  font-family: var(--font-family-accent);
+  font-size: 25px;
+  padding: 10px;
+  width: 550px;
+}
+
+.btn-branding a {
+  background-color: var(--color-light);
+  color: var(--color-dark);
+  font-family: var(--font-family-accent);
+  font-size: 18px;
+  font-weight: 450;
+  padding: 20px 70px;
   transition: all 100ms ease-in-out;
 }
 
-.contact-page .social-links a:hover {
+.btn-branding a:hover {
   background-color: var(--color-dark);
   color: white;
 }
 
 nav {
-  padding: 8px 30px;
   background-color: var(--color-light);
   font-family: var(--font-family-accent);
   font-size: 18px;
+  font-weight: 450;
+  padding: 8px 30px;
 }
+
 nav ul {
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 nav li {
   display: inline;
-  list-style: none;
   line-height: 43px;
+  list-style: none;
   margin-left: 15px;
 }
 
 nav a {
-  text-decoration: none;
   color: var(--color-dark);
+  text-decoration: none;
   transition: all 100ms ease-in-out;
 }
 
@@ -226,22 +175,24 @@ footer .social-links {
 }
 
 footer .social-links a {
+  background-color: var(--color-dark);
+  border-radius: 50%;
+  color: white;
   font-size: 18px;
-  color: var(--color-dark);
   margin: 20px;
   padding: 10px 13px;
-  border-radius: 50%;
-  background-color: var(--color-light);
   transition: all 100ms ease-in-out;
 }
 
 footer .social-links a:hover {
-  background-color: var(--color-dark);
-  color: white;
+  background-color: var(--color-light);
+  color: var(--color-dark);
 }
+
 footer .credits {
   color: var(--color-bg);
   font-family: var(--font-family-accent);
+  font-size: 15px;
 }
 
 footer .credits a {
@@ -253,43 +204,49 @@ footer .credits a:hover {
 }
 
 @media (max-width: 900px) {
-  h1 {
+  .name-title h1 {
     font-size: 50px;
-    text-align: center;
+  }
+  .about-title h1 {
+    font-size: 50px;
   }
 
-  h2,
-  marquee,
-  .home-links {
+  .project-page h1 {
+    font-size: 25px;
+  }
+
+  .contact-page h1 {
+    font-size: 25px;
+  }
+
+  .marquee,
+  .btn-branding {
     font-size: 18px;
     text-align: center;
   }
 
-  .name-title {
-    padding-bottom: 20px;
-    margin-bottom: 5px;
-  }
-
-  .about-title {
-    padding-top: 20px;
-    text-align: center;
-  }
-
-  .selfie {
-    max-width: 200px;
-    margin: 0;
-  }
-
   .about-title .full-name {
     font-size: 30px;
-    line-height: 1;
     margin-bottom: 5px;
-    text-align: center;
   }
 
   .about-title p {
     font-size: 15px;
-    line-height: 30px;
+    line-height: 25px;
+  }
+
+  .about-title {
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .name-title {
+    padding-bottom: 30px;
+  }
+
+  .about-page .selfie {
+    margin: 0;
+    max-width: 200px;
   }
 
   .marquee {
@@ -297,56 +254,49 @@ footer .credits a:hover {
     width: 290px;
   }
 
- 
-
-  .project-page h1 {
-    font-size: 35px;
-  }
-
-  
-
-  .project-page .description{
-    text-align: center;
-    padding: 20px 15px;
-  }
-
   .project-page h2 {
-    font-size: 20px;
+    font-size: 28px;
   }
 
-  .project-page p{
-    font-size: 12px;
+  .project-page p {
+    font-size: 15px;
     line-height: 20px;
+    margin: 0;
   }
 
-  .project-page .btn{
+  .project-page .btn {
     font-size: 12px;
   }
 
-  .project-page img{
-   display:none
-  }
-   .contact-page h1 {
-    font-size: 35px;
+  .project-page img {
+    display: none;
   }
 
-  .contact-page img{
-    max-width:300px;
+  .project-page .description {
+    text-align: center;
+    padding: 20px 5px;
   }
-  .contact-page .btn{
-    font-size: 18px;
+
+  .contact-page img {
+    max-width: 250px;
+  }
+
+  .contact-page .btn {
+    font-size: 15px;
     padding: 20px 18px;
   }
 
-  .home-links {
+  .btn-branding {
     font-family: var(--font-family-p);
     font-size: 18px;
     text-align: center;
   }
-  footer .credits {
-    font-size: 13px;
-  }
+
   nav {
+    font-size: 12px;
+  }
+
+  footer .credits {
     font-size: 12px;
   }
 }

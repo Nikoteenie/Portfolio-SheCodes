@@ -110,6 +110,10 @@ h1 {
   color: white;
 }
 
+.project-page .small-screenImage {
+  display: none;
+}
+
 .contact-page img {
   display: block;
   margin: 10px auto;
@@ -278,6 +282,13 @@ footer .credits a:hover {
     text-align: center;
     padding: 20px 10px;
   }
+
+  .project-page .small-screenImage {
+  display:block;
+  margin: 10px auto;
+  max-width: 200px;
+}
+
 
   .contact-page img {
     max-width: 250px;

@@ -36,15 +36,15 @@ h2 {
   margin: 0px 90px;
 }
 
-.about-title .full-name {
-  color: var(--color-light);
-  font-family: var(--font-family-secondary);
+.about-title h1 {
+  color: white;
   font-size: 60px;
 }
 
-.about-title h1 {
-  color: white;
-  font-size: 96px;
+.about-title #name {
+  color: var(--color-light);
+  font-family: var(--font-family-secondary);
+  font-size: 35px;
 }
 
 .about-title p {
@@ -52,6 +52,11 @@ h2 {
   font-family: var(--font-family-accent);
   font-size: 20px;
   line-height: 45px;
+}
+
+.about-title marquee {
+  margin: 20px 0;
+  font-size: 20px;
 }
 
 .name-title {
@@ -138,6 +143,7 @@ h1 {
   font-weight: 450;
   padding: 20px 70px;
   transition: all 100ms ease-in-out;
+
 }
 
 .btn-branding a:hover {

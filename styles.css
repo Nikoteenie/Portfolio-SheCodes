@@ -26,6 +26,14 @@ h4 {
   color: white;
 }
 
+.name-title h2 {
+  font-size: 55px;
+}
+
+.name-title .marquee {
+  max-width: 800px;
+}
+
 .name-title,
 .about-title,
 h2 {
@@ -39,6 +47,7 @@ h2 {
 .about-title h1 {
   color: white;
   font-size: 60px;
+  text-align: left;
 }
 
 .about-title #name {
@@ -132,7 +141,7 @@ h1 {
   font-size: 25px;
   font-weight: 450;
   padding: 10px;
-  width: 550px;
+  /* width: 550px; */
 }
 
 .btn-branding a {
@@ -217,25 +226,48 @@ footer .credits a:hover {
 
 @media (max-width: 900px) {
   .name-title h1 {
-    font-size: 50px;
+    font-size: 35px;
+  }
+.name-title h2 {
+  font-size: 20px;
+}
+
+.btn-branding .btn {
+font-size: 15px;
+}
+
+  .name-title .marquee {
+    font-size: 15px;
+    
   }
   .about-title h1 {
-    font-size: 50px;
+    font-size: 32px;
+    text-align: center;
   }
 
+  .about-title h2 {
+    font-size: 18px;
+  }
+
+  .about-title #name{
+    font-size: 18px;
+  }
+
+  .about-title .marquee {
+    font-size: 12px;
+    margin: 15px;
+    max-width: 250px;
+  }
   .project-page h1 {
     font-size: 25px;
+
   }
 
   .contact-page h1 {
     font-size: 25px;
   }
 
-  .marquee,
-  .btn-branding {
-    font-size: 18px;
-    text-align: center;
-  }
+ 
 
   .about-title .full-name {
     font-size: 30px;
@@ -243,9 +275,11 @@ footer .credits a:hover {
   }
 
   .about-title p {
-    font-size: 15px;
+    font-size: 12px;
     line-height: 25px;
   }
+
+  
 
   .about-title {
     padding-top: 30px;
@@ -288,6 +322,10 @@ footer .credits a:hover {
     text-align: center;
     padding: 20px 10px;
   }
+
+   .project-page .description h3{
+    font-size: 20px;
+   }
 
   .project-page .small-screenImage {
   display:block;
